@@ -1,4 +1,14 @@
 compat/*
+.wsjcpp/*
+dist_ubuntu/Makefile
+dist_ubuntu/config.log
+dist_ubuntu/.libs/
+dist_ubuntu/.target_source
+dist_ubuntu/lemon
+dist_ubuntu/sqlite3
+dist_ubuntu/*
+!dist_ubuntu/sqlite3.c
+!dist_ubuntu/sqlite3.h
 
 # Prerequisites
 *.d
